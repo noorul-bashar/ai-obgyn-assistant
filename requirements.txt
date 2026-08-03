@@ -1,0 +1,40 @@
+# Web framework
+fastapi>=0.111
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+
+# Config & validation
+pydantic>=2.7
+pydantic-settings>=2.3
+
+# Relational DB (patient records / consultation history)
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+alembic>=1.13
+
+# Vector DB — package is "pinecone" (pinecone-client is the deprecated legacy name)
+pinecone>=9.0
+
+# Embeddings (the same local CLIP encoder is used for ingestion and queries)
+torch>=2.3
+transformers>=4.44
+
+# LLM
+groq>=0.30
+
+# Document ingestion (layout-aware PDF Markdown + image OCR)
+pymupdf4llm
+pytesseract>=0.3.10
+Pillow>=10.4
+
+# LangChain parent-child token chunking
+langchain-text-splitters>=0.3
+tiktoken>=0.8
+
+# Misc
+python-dotenv>=1.0
+httpx>=0.27
+
+# Tests
+pytest>=8.2
+pytest-asyncio>=0.23

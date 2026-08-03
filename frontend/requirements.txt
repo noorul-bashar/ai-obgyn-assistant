@@ -1,0 +1,6 @@
+# Streamlit front end for the AI OB-GYN Clinical Assistant backend.
+# Talks to the FastAPI backend over plain HTTP - no backend packages
+# (fastapi, sqlalchemy, pinecone, anthropic, ...) are needed here.
+
+streamlit>=1.38
+requests>=2.31
