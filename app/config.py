@@ -44,8 +44,8 @@ class Settings(BaseSettings):
     CHILD_RETRIEVAL_MULTIPLIER: int = 4
 
     # --- RAG ---
-    RETRIEVAL_TOP_K: int = 5
-    MIN_RELEVANCE_SCORE: float = 0.45  # tune against evaluation queries after re-indexing
+    RETRIEVAL_TOP_K: int = 10
+    MIN_RELEVANCE_SCORE: float = 0.5  # tune against evaluation queries after re-indexing
 
 
 @lru_cache
