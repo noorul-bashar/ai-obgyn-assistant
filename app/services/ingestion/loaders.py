@@ -13,7 +13,7 @@ from PIL import Image
 def load_pdf_markdown(path: str | Path) -> str:
     """Extract a PDF as layout-aware Markdown with PyMuPDF4LLM."""
     try:
-        import pymupdf4llm
+     import pymupdf4llm
     except ImportError as exc:  # pragma: no cover - dependency validation happens at startup/deploy
         raise RuntimeError("pymupdf4llm is required to ingest PDFs") from exc
     return pymupdf4llm.to_markdown(str(path))
