@@ -45,7 +45,7 @@ class Settings(BaseSettings):
 
     # --- RAG ---
     RETRIEVAL_TOP_K: int = 10
-    MIN_RELEVANCE_SCORE: float = 0.5  # tune against evaluation queries after re-indexing
+    MIN_RELEVANCE_SCORE: float = 0.3  # tune against evaluation queries after re-indexing
 
 
 @lru_cache
