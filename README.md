@@ -1,4 +1,4 @@
-# AI OB-GYN Clinical Decision-Support Assistant
+# AI doctor Clinical Decision-Support Assistant
 
 Backend implementing the workflow from the whiteboard sketch:
 
